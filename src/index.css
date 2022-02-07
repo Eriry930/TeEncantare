@@ -5,6 +5,34 @@
 
 }
 
+/*  time for using */
+
+header {
+  overflow: hidden;
+  background: url(./Components/common/Fondos/fondo\ 18.jpg) transparent;  
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background: linear-gradient(50deg, rgb(237, 196, 22) 0%, rgb(42, 90, 20));
+
+
+}
+
 body{
-  overflow-x: hidden;
+  overflow: hidden;
+  background: url(./Components/common/Fondos/fondo\ 1.jpg); /*  time for using */
+  background-repeat: no-repeat;
+  background-size: cover; 
+  position:absolute;
+  
+
+}
+
+.uno{
+  width: 15%;
+  height: 15%;
+  margin: 15px;
+  border-radius: 10%;
+  overflow: hidden;
+  
+  
 }

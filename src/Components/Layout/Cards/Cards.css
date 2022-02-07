@@ -1,0 +1,33 @@
+.card {
+    border: none;
+    border-radius: 40px;
+    background: url('./images/siete.jpeg') no-repeat, ;
+    background: linear-gradient(#FFC671, #FFC671);
+}
+.card {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.Card {
+    max-height: 20px;
+    max-width: 20px;
+}
+
+.Card h1{
+    font-size: 33px;
+    color: white;
+}
+.Cards p{
+    padding: 5%;
+    font-family:cursive;
+    font-size: 20px;
+    color: #045DAF;
+}
+.Card-Add {
+    display: flex;
+    flex: wrap;
+    height: 40px;
+
+}

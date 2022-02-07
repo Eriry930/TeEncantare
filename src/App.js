@@ -1,7 +1,7 @@
 import React from 'react';
-import Card from './Components/Layout/Cards';
-import Header from './Components/Layout/Header';
-import Footer from './Components/Layout/Footer';
+import Card from './Components/Layout/Cards/Cards';
+import Header from './Components/Layout/Header/Header';
+import Footer from './Components/Layout/Footer/Footer';
 
 
 
