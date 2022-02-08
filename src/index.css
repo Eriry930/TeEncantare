@@ -7,16 +7,6 @@
 
 /*  time for using */
 
-header {
-  overflow: hidden;
-  background: url(./Components/common/Fondos/fondo\ 18.jpg) transparent;  
-  background-repeat: no-repeat;
-  background-size: cover; 
-  background: linear-gradient(50deg, rgb(237, 196, 22) 0%, rgb(42, 90, 20));
-
-
-}
-
 body{
   overflow: hidden;
   background: url(./Components/common/Fondos/fondo\ 1.jpg); /*  time for using */

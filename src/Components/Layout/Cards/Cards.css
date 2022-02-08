@@ -15,12 +15,14 @@
     max-width: 20px;
 }
 
-.Card h1{
-    font-size: 33px;
-    color: white;
+.h1{
+    padding: 1%;
+    font-family:cursive;
+    font-size: 35px;
+    color: #045DAF;
 }
 .Cards p{
-    padding: 5%;
+    padding: 1%;
     font-family:cursive;
     font-size: 20px;
     color: #045DAF;
@@ -29,5 +31,8 @@
     display: flex;
     flex: wrap;
     height: 40px;
+    padding: 10%;
+    
+    
 
 }

@@ -1,14 +1,18 @@
 import React from 'react';
+import Header from './Header.module.css'
+import Logo from './Logo'
 
-function Header ({TeEncantare}) {
-   return(
-      <nav>
-         <div className="nav-wrapper light-blue darken-2"> 
-         <a href='"#!' className='brand-logo'>TeEncantare</a>
-         </div>      
-      </nav>
 
+function header (props) {
+   const {children} = props;
+   return (
+       <header className= {Header.container}>
+           {children}
+           <Logo />
+
+       </header>
+        
    );
-} 
+}
 
-export default Header;
+export default header;
