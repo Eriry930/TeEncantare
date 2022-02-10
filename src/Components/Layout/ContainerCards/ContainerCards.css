@@ -1,0 +1,7 @@
+.ContainerCard{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: rgb(43, 226, 119);
+    width: 100px;
+
+}
