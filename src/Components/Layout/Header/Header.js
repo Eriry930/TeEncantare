@@ -1,17 +1,26 @@
 import React from 'react';
 import Header from './Header.module.css'
 
+import {Outlet} from "react-router-dom"
+import Logo from './Logo';
+import NavBar from '../../common/Views/NavBar'
 
 
-function header (props) {
+
+const header =(props) => {
    const {children} = props;
    return (
-       <header className= {Header.container}>
-           {children}
-           
+       <>
+           <header className= {Header.container}>
+               {children}
+            <Logo />
+            <NavBar />
 
-       </header>
-        
+
+            </header>
+            
+            <Outlet />
+       </> 
    );
 }
 
