@@ -1,13 +1,15 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
 import './Cards.css'
 
 
 function Cards(props) {
     const {children} = props;
-    const {Menu, 
-        Price, 
-        Type,
-        Image 
+    const {menu, 
+        price, 
+        type,
+        products,
+        image 
         } = props;
 
         return (
@@ -16,21 +18,21 @@ function Cards(props) {
             
 
             <div className='card'>
-                    <div >
-                        <p className='p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                    </div>
 
                     <div>
-                        <h2>{Menu}</h2>
+                        <h2>{menu}</h2>
                     </div>
                     <div>
-                        <p>{Price}</p>
+                        <p>{type}</p>
+                    </div> 
+                    <div>
+                        <p>{products}</p>
+                    </div> 
+                    <div>
+                        <p>{price}</p>
                     </div>    
                     <div>
-                        <p>{Type}</p>
-                    </div>    
-                    <div>
-                        <imagen src = {Image} className='uno'/>
+                        <img src = {image} alt={menu} className='uno'/>
                     </div>
 
                 </div>

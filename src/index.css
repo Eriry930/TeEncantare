@@ -8,9 +8,8 @@
 /*  time for using */
 
 body{
-  overflow: hidden;
+  overflow-x: hidden;
   background: url(./Components/common/Fondos/fondo\ 1.jpg); /*  time for using */
-  background-repeat: no-repeat;
   background-size: cover; 
   position:absolute;
   
@@ -22,7 +21,7 @@ body{
   height: 15%;
   margin: 15px;
   border-radius: 10%;
-  overflow: hidden;
+  overflow-x: hidden;
   
   
 }
